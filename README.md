@@ -73,6 +73,13 @@ The `run` command will run all the tests we have.
 ```
 npx codeceptjs run --steps
 ```
+In codecept.config.js add within config:
+```
+multiple: {
+    basic: {
+      browsers: ['chrome', 'firefox']
+    },
+```
 We can also run the tests on multiple browsers.
 ```
 npx codeceptjs run-multiple basic
