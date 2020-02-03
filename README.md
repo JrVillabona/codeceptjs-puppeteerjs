@@ -17,7 +17,7 @@ Located on the project route we installed Codecept JS:
 ```
 npm install codeceptjs puppeteer --save-dev
 ```
-This way Cypress will be installed in the **./node_modules**
+This way CodeceptJS will be installed in the **./node_modules**
 
 ## Execution
 The next step will be to start codecept:
@@ -34,7 +34,7 @@ Al ejecutarlo por primera vez, se creará la carpeta **cypress**, que contiene l
 - `Support`: Lugar para colocar comportamientos reutilizables, como comandos personalizados o anulaciones globales, que estarán disponibles para todos los tests.
 
 ## Let's write our first test
-Escribir tests en CodeceptJS es muy sencillo. El objetivo de este primer test será navegar a la página oficial de **Cypress.io**, ir a la sección de **Support** y verificar que en la URL esté la ruta correspondiende a la página de **Support**. Para ello, en primer lugar crearémos un archivo Javascript dentro de la carpeta **Integration** lo podríamos llamar `support.spec.js` y dentro del archivo escribirémos el siguiente código:
+Escribir tests en CodeceptJS es muy sencillo. El objetivo de este primer test será navegar a la página oficial de **Amazon**, buscar **iPhone Case** organizar la búsqueda desde con los precios de mayor a menor y verificar que los resultados estén organizados efectivamente de mayor a menor precio. Para ello, en primer lugar crearémos un archivo Javascript dentro de la carpeta **Integration** lo podríamos llamar `support.spec.js` y dentro del archivo escribirémos el siguiente código:
 ```
 describe('Test web oficial de cypress.io', () => {
   it('Visitar sección Support', ()=> {
