@@ -34,37 +34,7 @@ Al ejecutarlo por primera vez, se creará la carpeta **cypress**, que contiene l
 - `Support`: Lugar para colocar comportamientos reutilizables, como comandos personalizados o anulaciones globales, que estarán disponibles para todos los tests.
 
 ## Let's write our first test
-Escribir tests en CodeceptJS es muy sencillo. El objetivo de este primer test será navegar a la página oficial de **Amazon**, buscar **iPhone Case** organizar la búsqueda desde con los precios de mayor a menor y verificar que los resultados estén organizados efectivamente de mayor a menor precio. Para ello, en primer lugar crearémos un archivo Javascript dentro de la carpeta **Integration** lo podríamos llamar `support.spec.js` y dentro del archivo escribirémos el siguiente código:
-```
-describe('Test web oficial de cypress.io', () => {
-  it('Visitar sección Support', ()=> {
-    cy.visit('https://www.cypress.io/')
-    cy.get(':nth-child(2) > :nth-child(1) > .header__NavLink-xi2ch0-6').click()
-    cy.url().should('include', '/support')
-  } )
-} )
-```
-Analicemos línea a línea:
-```
-describe('Test web oficial de cypress.io', () => {
-```
-Esta línea define nuestro suite de tests, es importante darle un nombre descriptivo.
-```
-it('Visitar sección Support', ()=> {
-```
-Primera línea de un nuevo test dentro de nuestro suite de tests.
-```
-cy.visit('https://www.cypress.io/')
-```
-El comando **cy.visit** accede a la URL especificada.
-```
-cy.get(':nth-child(2) > :nth-child(1) > .header__NavLink-xi2ch0-6').click()
-```
-El comando **cy.contains** busca el elemento que contenga el texto que se le ha pasado como parámetro, y después hace click en él.
-```
-cy.url().should('include', '/support')
-```
-A través del comando **cy.url** nos aseguramos de que la ruta a la que accedemos es la correcta.
+Under construction...
 
 ## Let's run our first test
 Now that we have our first test created, let's execute it!
