@@ -1,0 +1,19 @@
+{
+  "name": "codeceptjs-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run:tests": "codeceptjs run --steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^2.4.1",
+    "puppeteer": "^2.1.0"
+  },
+  "dependencies": {
+    "mochawesome": "^4.1.0"
+  }
+}
