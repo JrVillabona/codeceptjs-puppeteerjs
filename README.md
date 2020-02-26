@@ -71,7 +71,33 @@ Enter de base url, in this case is: http://executeautomation.com/demosite
 ```
 ? [Puppeteer] Show browser window (Y/n)
 ```
-Enter Y and press enter key.
+Enter **Y** and press enter key.
+```
+Steps file created at ./steps_file.js
+Config created at /home/julian_villabona/Desktop/CodeceptJS/codecept.conf.js
+Directory for temporary output files created at './output'
+Intellisense enabled in /home/julian_villabona/Desktop/CodeceptJS/jsconfig.json
+TypeScript Definitions provide autocompletion in Visual Studio Code and other IDEs
+Definitions were generated in steps.d.ts
+
+ Almost ready... Next step:
+Creating a new test...
+----------------------
+? Feature which is being tested (ex: account, login, etc)
+```
+Enter the feature name, in this case ***login***
+```
+? Filename of a test (login_test.js)
+```
+Press enter key to create the file ***login.test.js***
+```
+Test for login_test.js was created in /home/julian_villabona/Desktop/CodeceptJSlogin_test.js
+
+--
+CodeceptJS Installed! Enjoy supercharged testing! 🤩
+Find more information at https://codecept.io
+```
+Finally CodeceptJS has been installed.
 
 ## BDD and Page Objects
 To add gherkin (features & step_definitions):
