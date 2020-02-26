@@ -73,6 +73,20 @@ Enter de base url, in this case is: http://executeautomation.com/demosite
 ```
 Enter Y and press enter key.
 
+## BDD and Page Objects
+To add gherkin (features & step_definitions):
+```
+npx codeceptjs gherkin:init
+```
+If you want running all the features:
+```
+npx codeceptjs run --features
+```
+To add page objects:
+```
+npx codeceptjs gpo
+```
+
 ## General
 When you run it for the first time, the **cypress** folder will be created, which contains the following folder structure:
 
